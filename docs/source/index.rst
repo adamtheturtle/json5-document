@@ -21,4 +21,4 @@ API reference
 
    contributing
    parsing
-   changelog/2026.10.15
+   changelog/2026.10.15.1
