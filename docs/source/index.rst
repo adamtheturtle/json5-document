@@ -20,4 +20,5 @@ API reference
    :maxdepth: 1
 
    contributing
+   parsing
    changelog/2026.10.15
