@@ -64,5 +64,5 @@ Source editing and JSONC validation are outside this library's API.
 Development
 -----------
 
-See `CONTRIBUTING.rst <CONTRIBUTING.rst>`_ for quality checks and the test corpus.
+See the `contributing guide <https://adamtheturtle.github.io/json5-document/contributing.html>`_ for quality checks and the test corpus.
 The project uses the MIT license.

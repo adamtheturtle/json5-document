@@ -16,9 +16,5 @@ updates:
     schedule:
       interval: daily
 
-  - package-ecosystem: pre-commit
-    cooldown:
-      default-days: 7
-    directory: /
-    schedule:
-      interval: daily
+  # Dependabot cannot read prek.toml yet:
+  # https://github.com/dependabot/dependabot-core/issues/14624

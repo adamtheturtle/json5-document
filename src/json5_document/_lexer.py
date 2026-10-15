@@ -159,7 +159,7 @@ def _number_value(*, source: str, start: int, raw: str) -> int | float:
         if unsigned.startswith(("0x", "0X")):
             integer = int(raw, base=16)
             _ = str(object=integer)
-            return integer
+            return -0.0 if integer == 0 and raw.startswith("-") else integer
         if raw == "-0":
             return -0.0
         if not any(char in raw for char in ".eE"):

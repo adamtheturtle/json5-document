@@ -65,7 +65,8 @@ def test_source_spans_and_comments() -> None:
 
 
 @pytest.mark.parametrize(
-    argnames="source", argvalues=["-0", "-0.0", "-0e10", "-.0"]
+    argnames="source",
+    argvalues=["-0", "-0.0", "-0e10", "-.0", "-0x0", "-0X00"],
 )
 def test_negative_zero(source: str) -> None:
     """Negative zero retains its sign regardless of numeric spelling."""
