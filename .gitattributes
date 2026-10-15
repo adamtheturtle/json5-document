@@ -1,0 +1,3 @@
+* text=auto eol=lf
+tests/conformance/** -text
+.git_archival.txt export-subst
